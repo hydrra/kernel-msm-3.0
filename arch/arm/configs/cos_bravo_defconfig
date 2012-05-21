@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.38.8 Kernel Configuration
-# Fri Apr  6 15:33:17 2012
+# Wed May  2 00:31:34 2012
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -173,7 +173,6 @@ CONFIG_IOSCHED_SIO=y
 CONFIG_IOSCHED_VR=y
 # CONFIG_DEFAULT_DEADLINE is not set
 CONFIG_DEFAULT_CFQ=y
-# CONFIG_DEFAULT_BFQ is not set
 # CONFIG_DEFAULT_SIO is not set
 # CONFIG_DEFAULT_NOOP is not set
 # CONFIG_DEFAULT_VR is not set
@@ -1685,7 +1684,9 @@ CONFIG_ANDROID_TIMED_GPIO=y
 CONFIG_ANDROID_LOW_MEMORY_KILLER=y
 # CONFIG_POHMELFS is not set
 # CONFIG_IIO is not set
+CONFIG_XVMALLOC=y
 CONFIG_ZRAM=y
+# CONFIG_ZRAM_DEBUG is not set
 # CONFIG_FB_SM7XX is not set
 
 #
