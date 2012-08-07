@@ -35,6 +35,8 @@
 #include <linux/oom.h>
 #include <linux/sched.h>
 #include <linux/notifier.h>
+#include <linux/fs.h>
+#include <linux/swap.h>
 
 static uint32_t lowmem_debug_level = 2;
 static int lowmem_adj[6] = {
